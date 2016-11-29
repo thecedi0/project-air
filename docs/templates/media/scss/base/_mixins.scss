@@ -1,0 +1,25 @@
+@mixin transEase($time, $delay:0s)
+{
+	-webkit-transition: all $time ease-out $delay;
+    -moz-transition: all $time ease-out $delay;
+    -o-transition: all $time ease-out $delay;
+    transition: all $time ease-out $delay;
+}
+
+
+@mixin transform($skew)
+{
+    -webkit-transform:skew($skew);
+    -moz-transform:skew($skew);
+    -o-transform:skew($skew);
+    transition:skew($skew);
+}
+
+
+@mixin rotate($deg)
+{
+    -webkit-transform:rotate($deg);
+    -moz-transform:rotate($deg);
+    -o-transform:rotate($deg);
+    transition:rotate($deg);
+}

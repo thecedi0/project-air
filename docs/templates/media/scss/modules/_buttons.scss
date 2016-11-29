@@ -1,0 +1,91 @@
+.ad-btn{
+    font-weight: bold;
+    border-radius:3px;
+  
+    
+    &:hover{
+        background-color:transparent !important;
+        border:2px solid $dark;
+        color:$dark;
+        
+        box-shadow: none;
+        
+        
+    }
+    
+}
+
+.btn-md{
+    line-height: 42px;
+    padding:0 28px;
+    &:hover{
+        padding: 0 24px;
+        line-height: 38px;
+    
+    }
+}
+.btn-prim{
+    background-color:$prim - 20;
+    color:white;
+    &:hover{
+        border-color:$prim;
+        color: $prim;
+    }
+}
+
+
+.btn-pink{
+    &:hover{
+       border-color:$pink;
+        color: $pink !important; 
+    }
+}
+
+.btn-white{
+    background-color:white;
+    color:$dark;
+    &:hover{
+        border-color:white;
+        color: white;
+    }
+}
+
+
+.btn-dark{
+    background-color:$dark;
+    color:white;
+    &:hover{
+        border-color:$dark;
+        color: $dark;
+    }
+}
+
+
+.btn-pink{
+    background-color:$pink;
+    color:white;
+    &:hover{
+        background-color:$pink - 20;
+        color: white;
+    }
+}
+
+
+.btn-yellow{
+    background-color:$yellow;
+    color:black;
+    &:hover{
+        border-color:$yellow - 20;
+        color: $yellow - 20;
+    }
+}
+
+
+.btn-green{
+    background-color:$tGreen;
+    color:$dark;
+    &:hover{
+        background-color:$tGreen - 20;
+        color: black;
+    }
+}

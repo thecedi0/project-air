@@ -1,0 +1,87 @@
+nav {
+  height: 70px;
+  background-color: rgba(30, 30, 40, 0.8);
+  width: 100%;
+  color: white;
+  margin-top: 0; }
+  nav .icons {
+    padding: 0;
+    margin: 0;
+    background-color: green; }
+    nav .icons li {
+      float: left;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-top: -3px; }
+      nav .icons li a {
+        padding: 17px;
+        margin: 0; }
+        nav .icons li a:hover {
+          color: white;
+          background-color: #14141e; }
+        nav .icons li a.active {
+          color: #28d0ea; }
+  nav .navbar-collapse {
+    /*background-color: #282832;*/
+    margin-top: 10px; }
+    nav .navbar-collapse .navbar-nav li {
+      color: #ebebeb; }
+      nav .navbar-collapse .navbar-nav li a.active {
+        color: #28d0ea;
+        font-weight: 800; }
+      nav .navbar-collapse .navbar-nav li a:hover {
+        color: white;
+        background-color: rgba(30, 30, 40, 0);
+        text-decoration: underline; }
+      nav .navbar-collapse .navbar-nav li a span {
+        margin-top: 4px;
+        font-size: 15px; }
+  nav .pops .user {
+    background-color: white;
+    height: auto;
+    width: 300px;
+    border-radius: 2px;
+    border-top: 5px solid #28d0ea;
+    color: #282832;
+    padding: 5px 10px;
+    float: right;
+    display: none; }
+    nav .pops .user h4 {
+      font-weight: bold; }
+    nav .pops .user hr {
+      margin: 0; }
+    nav .pops .user p {
+      padding-top: 5px;
+      color: #5a5a64;
+      font-weight: lighter;
+      font-size: 13px; }
+  nav .pops .search {
+    background-color: white;
+    color: #282832;
+    padding: 5px 10px;
+    width: 300px;
+    float: right;
+    display: none; }
+
+.subnav {
+  max-height: 50px;
+  background-color: rgba(40, 208, 234, 0.7);
+  padding: 15px 0;
+  color: white;
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: -50px;
+  position: relative;
+  z-index: 50; }
+  .subnav .content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    font-size: 17px; }
+  .subnav .content li {
+    display: inline;
+    padding: 3px 10px; }
+
+/*# sourceMappingURL=_nav.css.map */

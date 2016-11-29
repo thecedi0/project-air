@@ -1,0 +1,44 @@
+/* -- Columes froim 2 upward --*/
+
+.col-hs{
+    display:inline-block;
+    vertical-align:top;
+    height:auto;
+    padding:0 !important;
+    margin:0 -1px !important;
+}
+.col-hs-12{
+    @extend .col-hs;
+    width:100%;
+    height:auto;
+    
+}
+
+.col-hs-8{
+    @extend .col-hs;
+    width:66.6%;
+    height:auto;
+    
+}
+
+
+.col-hs-6{
+    @extend .col-hs;
+    width:49.9%;
+}
+
+.col-hs-4{
+    @extend .col-hs;
+    width:33.2%;
+}
+
+.col-hs-3{
+    @extend .col-hs;
+    width:24.9%;
+}
+
+.col-hs-2{
+    @extend .col-hs;
+    width:19.9%;
+}
+

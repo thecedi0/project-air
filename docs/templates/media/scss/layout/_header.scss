@@ -1,0 +1,145 @@
+header{
+    // background-color:$dark;
+    height:70px;
+    width:100%;
+
+    ul{
+        list-style:none;
+        margin:0;
+        padding:0;
+
+        li{
+            float:left;
+            padding:15px 10px;
+            color:$smoke;
+
+                &:hover{
+                    color:$prim;
+                    background-color:$dark - 5;
+                }
+
+
+            a{
+                display:block;
+                width:100%;
+                 &:hover{
+                    color:$prim;
+                    background-color:$dark - 5;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+.ad-nav{
+
+    background-color:rgba($dark, .95);
+    color:white;
+    // opacity: .5;
+    height:75px !important;
+    overflow: none !important;
+    position:absolute;
+    
+    padding:0;
+    
+    box-shadow:0 0 2px 0 black;
+    
+    /*text-align: center;*/
+    &.ad-fixed{
+       background-color:$dark;
+        
+        
+       
+    }
+        
+    .ad-logo{
+        background-color:transparent;
+        margin-top:15px;
+        width:250px;
+        height:62px;
+         /*background-color:red;*/
+        
+        
+        position:relative;
+        z-index: 1000;
+        
+        text-align:center;
+        display: inline-block;
+        vertical-align: top;
+        
+        
+        & + h1{
+            display: inline-block;
+            vertical-align: top;
+            font-weight: normal;
+            span{
+                color:$prim;
+                
+            }
+        }
+        
+    }
+    
+    
+    .ad-menu{
+        font-weight: normal;
+        
+        // background-color:red;
+        
+        margin-top:15px;
+        
+        
+        
+        li{
+            
+            margin-left:15px;
+            color:inherit;
+            opacity: .9;
+            
+            &:hover{
+                background-color:transparent;
+                border-bottom:2px solid white;
+                a{
+                    color:inherit;
+                    background-color:transparent;
+                }
+            }
+            .ad-btn{
+                margin:0;
+                margin-top:-10px;
+                
+                
+            }
+        }
+        
+    }
+    .ad-menuTrigger{
+            display: none;
+            
+            &:hover{
+                opacity: .9;
+                cursor: pointer;
+            }
+            
+            
+            
+        }
+    
+    
+    
+    strong{
+        color:$prim;
+        display: inline-block;
+        margin-bottom: 5px;
+        
+    }
+    
+    small{
+        opacity:.8;
+        // padding-top:10px !important;
+    }
+}

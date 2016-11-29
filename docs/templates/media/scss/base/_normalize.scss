@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5,  h6{
+	text-transform:none;
+    // font-weight:800;
+    
+    &.hd{
+        opacity: .8;
+        letter-spacing: 2px;
+    }
+
+    .thin{
+        font-weight:300;
+    }
+}
+
+
+
+p{
+    line-height: 25px;
+}
+
+

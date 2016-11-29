@@ -1,0 +1,318 @@
+<section id="grid">
+    <div class="wrapper">
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <h2>Grid System</h2>
+                <p>
+                    Like every css framework, there is the class responsible for arranging content by rows and columns. Twitter bootstrap always
+                    wraps all content in their class called <code>"container"</code> which is to center
+                    the content and "container-fluid" for a full width of the browser's width. airDesign also has its own
+                    container and its grid system.
+
+                </p>
+                <p>
+                    We fir wrap every row and column in a container called "wrapper". Wrapper and wrapper-fluid does the same thing as the "container"
+                    and the "container-fluid" of the bootstrap. We personally advise that "wrapper-fluid" be not used for
+                    a website except you absolutely want to have the content at full with to the browser, like a slider and
+                    gallery. We find it fit to use wrapper instead for website so to center your contents irrespective of
+                    the resolution.
+                </p>
+
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <pre class="ad-code" ad-type="HTML">
+                    <code>
+                     
+                         &lt;section&gt;
+                             &lt;div <span class="class">class="wrapper"</span>&gt;
+
+                             &lt;/div&gt;
+                         &lt;/section&gt;
+                           
+                           <span class="word">OR</span>
+
+                        &lt;section&gt;
+                             &lt;div <span class="class">class="wrapper-fluid"</span>&gt;
+
+                             &lt;/div&gt;
+                         &lt;/section&gt;
+                    </code>
+                </pre>
+
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <div class="ad-card ad-flat whiteBG">
+                    <p>
+                        In both instances, we have declared the wrapper and wrapper-fluid class to prepare the code for rows and colums. Right after
+                        the wrapper has been declered, the next class is ".ad-row" to create a row for the grid-system. Lets
+                        just assume the class wrapper as our container
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <pre class="ad-code" ad-type="HTML">
+                    <code>
+                     
+                         &lt;section&gt;
+                             &lt;div <span class="class">class="wrapper"</span>&gt;
+
+                                &lt;div <span class="class">class="ad-row"</span>&gt;
+                                    
+                                    <span class="word">Columns goes in here...</span>
+
+                                &lt;/div&gt;
+                             
+                             &lt;/div&gt;
+                         &lt;/section&gt;
+                           
+                         
+                    </code>
+                </pre>
+
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <div class="ad-card ad-flat whiteBG">
+                    <p>
+                        This grid-system has a maximum of 12 columns just like bootstrap's. The full width columns is ad-cols-12 while for a 2 column
+                        grid will be half the size ad-cols-6. We illustrate example of a 3 Columns below. Rember that 3 divided
+                        by 12 will yeild 4. hence the class for a three column will be ad-cols-4
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <pre class="ad-code" ad-type="HTML">
+                    <code>
+                     
+                         &lt;section&gt;
+                             &lt;div <span class="class">class="wrapper"</span>&gt;
+
+                                &lt;div <span class="class">class="ad-row"</span>&gt;
+                                    
+                                    &lt;div <span class="class">class="ad-cols-4"</span>&gt;
+                                    
+                                    <span class="word">Column 1</span>
+
+                                    &lt;/div&gt;
+                                    &lt;div <span class="class">class="ad-cols-4"</span>&gt;
+                                    
+                                    <span class="word">Column 2</span>
+
+                                    &lt;/div&gt;
+                                    &lt;div <span class="class">class="ad-cols-4"</span>&gt;
+                                    
+                                    <span class="word">Column 3</span>
+
+                                    &lt;/div&gt;
+
+                                &lt;/div&gt;
+                             
+                             &lt;/div&gt;
+                         &lt;/section&gt;
+                           
+                         
+                    </code>
+                </pre>
+
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <div class="ad-card ad-flat whiteBG">
+                    <p>
+                        The code above to display a three colums like below...
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="ad-row">
+            <div class="ad-cols-4">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 1
+                    </p>
+                </div>
+            </div>
+
+            <div class="ad-cols-4">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 2
+                    </p>
+                </div>
+            </div>
+
+            <div class="ad-cols-4">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 3
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <div class="ad-card ad-flat whiteBG">
+                    <p>
+                        Other Column examples are as follows
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!--1 column-->
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 1
+                        <br> .ad-cols-12
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+        <!--2columns-->
+        <div class="ad-row">
+            <div class="ad-cols-6">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 1
+                        <br> .ad-cols-6
+                    </p>
+                </div>
+            </div>
+            <div class="ad-cols-6">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 2
+                        <br> .ad-cols-6
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <!--4columns-->
+        <div class="ad-row">
+            <div class="ad-cols-3">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 1
+                        <br> .ad-cols-3
+                    </p>
+                </div>
+            </div>
+            <div class="ad-cols-3">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 2
+                        <br> .ad-cols-3
+                    </p>
+                </div>
+            </div>
+
+            <div class="ad-cols-3">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 1
+                        <br> .ad-cols-3
+                    </p>
+                </div>
+            </div>
+            <div class="ad-cols-3">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 2
+                        <br> .ad-cols-3
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+
+        <!--2columns Unequal-->
+        <div class="ad-row">
+            <div class="ad-cols-3">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 1
+                        <br> .ad-cols-3
+                    </p>
+                </div>
+            </div>
+            <div class="ad-cols-9">
+                <div class="ad-card whiteBG">
+                    <p>
+                        Column 2
+                        <br> .ad-cols-9
+                    </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="ad-row">
+            <div class="ad-cols-12">
+                <div class="ad-card ad-flat whiteBG">
+                    <p>
+                        There are countless possibilities and arrangements you can achieve with this. you could have nested columns but a column
+                        has to exits in a row. the naming conversion for our columns is not finalize. since ad-cols mean
+                        a small column, ad-coll means a large column etc. These are great the large screens, medium screens,
+                        small screens and xtra small screen devices. These column screen sizes could be mixed up for a perfect
+                        responsive design for each screen size. We will do our best to make it more robust and adoptive with
+                        other frameworks.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+    </div>
+
+</section>
